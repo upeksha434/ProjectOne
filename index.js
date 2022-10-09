@@ -11,7 +11,8 @@ app.get('/', (req, res) => {
 
 app.get('/dev',(req,res)=>{
   res.json({
-    'dev':'upkesha'
+    'dev':'upkesha',
+    'stack':'MERN'
   })
 })
 
