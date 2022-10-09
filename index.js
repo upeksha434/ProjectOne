@@ -16,6 +16,13 @@ app.get('/dev',(req,res)=>{
   })
 })
 
+app.get('/dev',(req,res)=>{
+  res.json({
+    'dev':'upkesha',
+    'stack':'MERN'
+  })
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 });
