@@ -23,6 +23,13 @@ app.get('/dev',(req,res)=>{
   })
 })
 
+app.get('/dev',(req,res)=>{
+  res.json({
+    'dev':'1234',
+    'stack':'1234'
+  })
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 });
