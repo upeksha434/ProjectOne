@@ -9,6 +9,12 @@ app.get('/', (req, res) => {
   });
 });
 
+app.get('/dev',(req,res)=>{
+  res.json({
+    'dev':'upkesha'
+  })
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 });
